@@ -35,12 +35,12 @@ const FEATURES = [
 ];
 
 const PORTFOLIO = [
-  { img: p1, label: "Kaos Komunitas Custom", cat: "Kaos" },
-  { img: p2, label: "Kemeja PDH Korporat", cat: "Kemeja" },
-  { img: p3, label: "Jersey Full Printing", cat: "Jersey" },
-  { img: p6, label: "Hoodie Komunitas", cat: "Hoodie" },
-  { img: p5, label: "Bomber Jaket Custom", cat: "Jaket" },
-  { img: p10, label: "Varsity Jacket", cat: "Jaket" },
+  { img: p1, label: "Kaos Hitam Komunitas Neglasari", cat: "Kaos" },
+  { img: p2, label: "Polo Lengan Panjang Navy Sekretariat", cat: "Polo" },
+  { img: p3, label: "Sablon Manual Logo Emas Massal", cat: "Sablon" },
+  { img: p6, label: "Packing Tas Souvenir Bunga Tosca", cat: "Souvenir" },
+  { img: p5, label: "Rompi Tactical Hijau Bordir Arab", cat: "Rompi" },
+  { img: p10, label: "Produksi Massal Seragam Batik", cat: "Seragam" },
 ];
 
 function Index() {

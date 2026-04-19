@@ -30,16 +30,16 @@ export const Route = createFileRoute("/galeri")({
 type Cat = "Semua" | "Kaos" | "Kemeja" | "Jersey" | "Seragam" | "Jaket" | "Hoodie" | "Souvenir";
 
 const ITEMS: { img: string; title: string; cat: Exclude<Cat, "Semua">; tall?: boolean }[] = [
-  { img: p1, title: "Kaos Komunitas Custom", cat: "Kaos", tall: true },
-  { img: p2, title: "Kemeja PDH Korporat", cat: "Kemeja" },
-  { img: p3, title: "Jersey Full Printing", cat: "Jersey", tall: true },
-  { img: p4, title: "Seragam Kerja Lapangan", cat: "Seragam" },
-  { img: p5, title: "Jaket Custom Premium", cat: "Jaket", tall: true },
-  { img: p6, title: "Hoodie Komunitas", cat: "Hoodie" },
-  { img: p7, title: "Polo Shirt Seragam Kantor", cat: "Kemeja", tall: true },
-  { img: p8, title: "Tote Bag Souvenir Event", cat: "Souvenir" },
-  { img: p9, title: "Produksi Massal Workshop", cat: "Kaos" },
-  { img: p10, title: "Varsity / Baseball Jacket", cat: "Jaket" },
+  { img: p1, title: "Kaos Hitam Komunitas Neglasari", cat: "Kaos", tall: true },
+  { img: p2, title: "Polo Lengan Panjang Sekretariat Navy", cat: "Kemeja" },
+  { img: p3, title: "Sablon Manual Logo Emas Massal", cat: "Kaos", tall: true },
+  { img: p4, title: "Packing Seragam Sarung & Mukena", cat: "Seragam" },
+  { img: p5, title: "Rompi Tactical Hijau Bordir Arab", cat: "Jaket", tall: true },
+  { img: p6, title: "Packing Tas Souvenir Bunga Tosca", cat: "Souvenir" },
+  { img: p7, title: "Produksi Massal Seragam Batik", cat: "Seragam", tall: true },
+  { img: p8, title: "Workshop Jahit Kaos Hijau Stabilo", cat: "Kaos" },
+  { img: p9, title: "Bundling Kaos Komunitas Siap Kirim", cat: "Kaos" },
+  { img: p10, title: "Rompi Outdoor Custom Bordir", cat: "Jaket" },
 ];
 
 const FILTERS: Cat[] = ["Semua", "Kaos", "Kemeja", "Jersey", "Seragam", "Jaket", "Hoodie", "Souvenir"];

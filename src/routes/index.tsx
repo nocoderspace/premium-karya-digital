@@ -9,6 +9,7 @@ import p5 from "@/assets/upload-rompi-hijau.jpg";
 import p6 from "@/assets/upload-packing-bunga.jpg";
 import p10 from "@/assets/upload-batik-pack.jpg";
 import { categories, buildWhatsAppUrl } from "@/lib/products";
+import { ClientMarquee } from "@/components/ClientMarquee";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -92,6 +93,9 @@ function Index() {
           </div>
         </div>
       </section>
+
+      {/* CLIENT LOGOS */}
+      <ClientMarquee />
 
       {/* TRUST STRIP */}
       <section className="border-y border-border bg-surface/50">

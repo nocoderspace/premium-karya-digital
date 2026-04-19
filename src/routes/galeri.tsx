@@ -1,16 +1,16 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState, useMemo, useEffect } from "react";
 import { X, ChevronLeft, ChevronRight, MessageCircle } from "lucide-react";
-import p1 from "@/assets/portfolio-1.jpg";
-import p2 from "@/assets/portfolio-2.jpg";
-import p3 from "@/assets/portfolio-3.jpg";
-import p4 from "@/assets/portfolio-4.jpg";
-import p5 from "@/assets/portfolio-5.jpg";
-import p6 from "@/assets/portfolio-6.jpg";
-import p7 from "@/assets/portfolio-7.jpg";
-import p8 from "@/assets/portfolio-8.jpg";
-import p9 from "@/assets/portfolio-9.jpg";
-import p10 from "@/assets/portfolio-10.jpg";
+import p1 from "@/assets/upload-kaos-neglasari.jpg";
+import p2 from "@/assets/upload-polo-navy.jpg";
+import p3 from "@/assets/upload-sablon-emas.jpg";
+import p4 from "@/assets/upload-banner-produk.jpg";
+import p5 from "@/assets/upload-rompi-hijau.jpg";
+import p6 from "@/assets/upload-packing-bunga.jpg";
+import p7 from "@/assets/upload-batik-pack.jpg";
+import p8 from "@/assets/upload-workshop-jahit.jpg";
+import p9 from "@/assets/upload-kaos-neglasari.jpg";
+import p10 from "@/assets/upload-rompi-hijau.jpg";
 import { buildWhatsAppUrl } from "@/lib/products";
 import { PageHero } from "@/components/SectionHero";
 

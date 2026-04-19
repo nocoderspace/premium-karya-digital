@@ -46,7 +46,7 @@ export function Footer() {
             <p className="label-tag mb-4">[Kontak]</p>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li className="flex items-start gap-2"><MessageCircle size={14} className="mt-1 text-neon" /> +62 812-3456-7890</li>
-              <li className="flex items-start gap-2"><Mail size={14} className="mt-1 text-neon" /> halo@fauzidesign.id</li>
+              <li className="flex items-start gap-2"><Mail size={14} className="mt-1 text-neon" /><span>halo@fauzidesign.id</span></li>
               <li className="flex items-start gap-2"><MapPin size={14} className="mt-1 text-neon" /> Workshop Produksi · Indonesia</li>
               <li className="flex items-start gap-2"><Instagram size={14} className="mt-1 text-neon" /> @fauzidesign</li>
             </ul>

@@ -1,13 +1,13 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowUpRight, Check, MessageCircle } from "lucide-react";
 import heroImg from "@/assets/hero-main.jpg";
-import workshop from "@/assets/workshop.jpg";
-import p1 from "@/assets/portfolio-1.jpg";
-import p2 from "@/assets/portfolio-2.jpg";
-import p3 from "@/assets/portfolio-3.jpg";
-import p5 from "@/assets/portfolio-5.jpg";
-import p6 from "@/assets/portfolio-6.jpg";
-import p10 from "@/assets/portfolio-10.jpg";
+import workshop from "@/assets/upload-workshop-jahit.jpg";
+import p1 from "@/assets/upload-kaos-neglasari.jpg";
+import p2 from "@/assets/upload-polo-navy.jpg";
+import p3 from "@/assets/upload-sablon-emas.jpg";
+import p5 from "@/assets/upload-rompi-hijau.jpg";
+import p6 from "@/assets/upload-packing-bunga.jpg";
+import p10 from "@/assets/upload-batik-pack.jpg";
 import { categories, buildWhatsAppUrl } from "@/lib/products";
 
 export const Route = createFileRoute("/")({
@@ -72,6 +72,23 @@ function Index() {
             <a href={wa} target="_blank" rel="noopener noreferrer" className="btn-tag btn-tag-outline">
               <MessageCircle size={14} /> Konsultasi Gratis
             </a>
+          </div>
+
+          {/* ACHIEVEMENT CARD */}
+          <div className="mt-10 md:mt-14 max-w-2xl">
+            <div className="bg-background/80 backdrop-blur-md border border-neon/40 p-5 md:p-6 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-2 shadow-[0_0_40px_-10px_var(--color-neon)]">
+              {[
+                { n: "5+", l: "Tahun Pengalaman" },
+                { n: "10K+", l: "Pesanan Selesai" },
+                { n: "500+", l: "Klien Puas" },
+                { n: "98%", l: "Rating Kepuasan" },
+              ].map((s) => (
+                <div key={s.l} className="text-center md:px-2">
+                  <p className="font-display text-3xl md:text-4xl text-neon leading-none">{s.n}</p>
+                  <p className="mt-2 font-mono text-[10px] uppercase tracking-widest text-muted-foreground leading-tight">{s.l}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>

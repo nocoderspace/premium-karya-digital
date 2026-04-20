@@ -3,7 +3,9 @@ import kemeja from "@/assets/cat-kemeja-new.jpg";
 import jersey from "@/assets/cat-jersey.jpg";
 import seragam from "@/assets/cat-seragam.jpg";
 import jaket from "@/assets/cat-jaket.jpg";
+import jaketVarsity from "@/assets/cat-jaket-varsity.jpg";
 import hoodie from "@/assets/cat-hoodie.jpg";
+import hoodieZip from "@/assets/cat-hoodie-zip.jpg";
 import polo from "@/assets/cat-polo.jpg";
 import souvenir from "@/assets/cat-souvenir.jpg";
 
@@ -119,7 +121,7 @@ export const products: Product[] = [
     timeline: "10–14 hari kerja",
   },
   {
-    id: "h-002", name: "Zip Hoodie Premium", category: "Hoodie", image: hoodie,
+    id: "h-002", name: "Zip Hoodie Premium", category: "Hoodie", image: hoodieZip,
     spec: "Fleece 280 gsm · Resleting YKK", moq: 12,
     description: "Zip hoodie dengan resleting YKK premium dan bahan fleece nyaman.",
     materials: ["Fleece Cotton 280", "Fleece 320"],
@@ -128,7 +130,7 @@ export const products: Product[] = [
     timeline: "12–18 hari kerja",
   },
   {
-    id: "ja-002", name: "Varsity Jacket Custom", category: "Jaket", image: jaket,
+    id: "ja-002", name: "Varsity Jacket Custom", category: "Jaket", image: jaketVarsity,
     spec: "Wool / Fleece · Lengan Kulit Sintetis", moq: 12,
     description: "Varsity jacket dengan patch bordir custom. Statement piece untuk komunitas dan tim.",
     materials: ["Fleece Heavy", "Wool Blend"],

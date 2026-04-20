@@ -62,8 +62,8 @@ Mohon kirimkan quotation lengkap. Terima kasih.`;
       {/* CONTACT CARDS */}
       <section className="container-edge pb-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-5">
         {[
-          { I: MessageCircle, t: "WhatsApp", v: "+62 812-3456-7890", href: buildWhatsAppUrl("Halo Fauzi Design"), tag: "Chat sekarang" },
-          { I: Mail, t: "Email", v: "halo@fauzidesign.id", href: "mailto:halo@fauzidesign.id", tag: "Kirim email" },
+          { I: MessageCircle, t: "WhatsApp", v: "+62 889-9112-5343", href: buildWhatsAppUrl("Halo Fauzi Design"), tag: "Chat sekarang" },
+          { I: Mail, t: "Email", v: "fauzidesignindonesia@gmail.com", href: "mailto:fauzidesignindonesia@gmail.com", tag: "Kirim email" },
           { I: MapPin, t: "Alamat", v: "Workshop Produksi · Indonesia", href: "#", tag: "Lihat lokasi" },
           { I: Clock, t: "Jam Operasional", v: "Sen–Sab · 09.00–18.00 WIB", href: "#", tag: "Buka hari ini" },
         ].map((c) => (
@@ -150,10 +150,13 @@ Mohon kirimkan quotation lengkap. Terima kasih.`;
               <MessageCircle size={14} /> Konsultasi Gratis
             </a>
           </div>
-          <div className="border border-border bg-surface p-6">
+          <div className="border border-border bg-surface p-6 space-y-3">
             <p className="label-tag mb-3">[Sosial Media]</p>
-            <a href="#" className="flex items-center gap-3 hover:text-neon transition">
-              <Instagram size={20} /> <span className="font-mono text-sm">@fauzidesign</span>
+            <a href="https://instagram.com/fauzidesign.id" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:text-neon transition">
+              <Instagram size={20} /> <span className="font-mono text-sm">@fauzidesign.id</span>
+            </a>
+            <a href="https://tiktok.com/@fauzidesi.id" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:text-neon transition">
+              <Music2 size={20} /> <span className="font-mono text-sm">@fauzidesi.id</span>
             </a>
           </div>
           <div className="border border-border bg-surface p-6 font-mono text-[11px] text-muted-foreground leading-relaxed">

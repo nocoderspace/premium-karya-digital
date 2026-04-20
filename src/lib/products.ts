@@ -149,7 +149,7 @@ export const products: Product[] = [
   },
 ];
 
-export const WHATSAPP_NUMBER = "6281234567890";
+export const WHATSAPP_NUMBER = "6288991125343";
 
 export function buildWhatsAppUrl(message: string) {
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;

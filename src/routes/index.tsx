@@ -206,7 +206,7 @@ function Index() {
         <img src={workshop} alt="Workshop produksi" loading="lazy" className="absolute inset-0 w-full h-full object-cover opacity-50" />
         <div className="absolute inset-0 bg-gradient-to-r from-background via-background/50 to-transparent" />
         <div className="container-edge relative">
-          <p className="label-tag mb-3">[Workshop Sendiri]</p>
+          <p className="label-tag mb-3">​</p>
           <h2 className="font-display text-4xl md:text-6xl uppercase leading-[0.95] max-w-2xl">
             Diproduksi langsung di <br /> <span className="text-stroke">workshop kami.</span>
           </h2>

@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
-import { MessageCircle, Mail, MapPin, Clock, Plus, Minus, Instagram } from "lucide-react";
+import { MessageCircle, Mail, MapPin, Clock, Plus, Minus, Instagram, Music2 } from "lucide-react";
 import { buildWhatsAppUrl, WHATSAPP_NUMBER } from "@/lib/products";
 import { PageHero } from "@/components/SectionHero";
 

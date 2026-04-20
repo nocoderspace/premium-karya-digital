@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { Logo } from "./Logo";
-import { Instagram, MessageCircle, Mail, MapPin } from "lucide-react";
+import { Instagram, MessageCircle, Mail, MapPin, Music2 } from "lucide-react";
 import { buildWhatsAppUrl } from "@/lib/products";
 
 export function Footer() {

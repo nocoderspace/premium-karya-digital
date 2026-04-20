@@ -211,7 +211,7 @@ function Index() {
             Diproduksi langsung di <br /> <span className="text-stroke">workshop kami.</span>
           </h2>
           <p className="mt-5 max-w-md text-muted-foreground">
-            Tanpa perantara. Kontrol penuh atas kualitas, kecepatan, dan konsistensi setiap pesanan.
+            Di Kerjakan Oleh Tenaga Propesional Yang Sudah Berpengalaman di Bidangnya.
           </p>
           <Link to="/tentang-kami" className="btn-tag btn-tag-outline mt-8">
             Pelajari Proses Produksi <ArrowUpRight size={14} />

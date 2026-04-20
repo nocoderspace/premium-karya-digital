@@ -1,12 +1,12 @@
-import c1 from "@/assets/clients/client-1.jpg";
-import c2 from "@/assets/clients/client-2.jpg";
-import c3 from "@/assets/clients/client-3.jpg";
-import c4 from "@/assets/clients/client-4.jpg";
-import c5 from "@/assets/clients/client-5.jpg";
-import c6 from "@/assets/clients/client-6.jpg";
-import c7 from "@/assets/clients/client-7.jpg";
-import c8 from "@/assets/clients/client-8.jpg";
-import c9 from "@/assets/clients/client-9.jpg";
+import c1 from "@/assets/clients/client-1.jpeg";
+import c2 from "@/assets/clients/client-2.jpeg";
+import c3 from "@/assets/clients/client-3.jpeg";
+import c4 from "@/assets/clients/client-4.jpeg";
+import c5 from "@/assets/clients/client-5.jpeg";
+import c6 from "@/assets/clients/client-6.jpeg";
+import c7 from "@/assets/clients/client-7.jpeg";
+import c8 from "@/assets/clients/client-8.jpeg";
+import c9 from "@/assets/clients/client-9.jpeg";
 
 const LOGOS = [
   { src: c1, name: "Universitas Padjadjaran" },
@@ -51,7 +51,10 @@ export function ClientMarquee() {
               <img
                 src={logo.src}
                 alt={logo.name}
-                loading="lazy"
+                loading="eager"
+                decoding="async"
+                width={176}
+                height={128}
                 className="max-w-full max-h-full object-contain"
               />
             </div>

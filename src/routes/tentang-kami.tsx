@@ -71,7 +71,7 @@ function Tentang() {
           </h2>
           <div className="mt-6 space-y-4 text-muted-foreground leading-relaxed">
             <p>
-              Berawal dari workshop kecil dengan beberapa mesin jahit, Fauzi Design tumbuh karena satu prinsip
+              Berdiri sejak 2018. Berawal dari workshop kecil Fauzi Design tumbuh karena satu prinsip
               sederhana: setiap order, sekecil apa pun, harus dikerjakan dengan kualitas terbaik.
             </p>
             <p>

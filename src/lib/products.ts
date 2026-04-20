@@ -1,5 +1,5 @@
 import kaos from "@/assets/cat-kaos.jpg";
-import kemeja from "@/assets/cat-kemeja.jpg";
+import kemeja from "@/assets/cat-kemeja-new.jpg";
 import jersey from "@/assets/cat-jersey.jpg";
 import seragam from "@/assets/cat-seragam.jpg";
 import jaket from "@/assets/cat-jaket.jpg";

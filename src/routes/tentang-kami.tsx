@@ -76,8 +76,7 @@ function Tentang() {
             </p>
             <p>
               Hari ini, kami menangani produksi untuk komunitas, perusahaan, sekolah, hingga event nasional —
-              dengan workshop produksi sendiri, tim kreatif, dan QC ketat untuk memastikan hasil akhir sesuai
-              ekspektasi.
+              dengan tim kreatif, dan QC ketat untuk memastikan hasil akhir sesuai ekspektasi.
             </p>
           </div>
           <a href={wa} target="_blank" rel="noopener noreferrer" className="btn-tag btn-tag-primary mt-8">

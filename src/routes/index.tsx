@@ -75,22 +75,6 @@ function Index() {
             </a>
           </div>
 
-          {/* ACHIEVEMENT CARD */}
-          <div className="mt-10 md:mt-14 max-w-2xl">
-            <div className="bg-background/80 backdrop-blur-md border border-neon/40 p-5 md:p-6 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-2 shadow-[0_0_40px_-10px_var(--color-neon)]">
-              {[
-                { n: "5+", l: "Tahun Pengalaman" },
-                { n: "10K+", l: "Pesanan Selesai" },
-                { n: "500+", l: "Klien Puas" },
-                { n: "98%", l: "Rating Kepuasan" },
-              ].map((s) => (
-                <div key={s.l} className="text-center md:px-2">
-                  <p className="font-display text-3xl md:text-4xl text-neon leading-none">{s.n}</p>
-                  <p className="mt-2 font-mono text-[10px] uppercase tracking-widest text-muted-foreground leading-tight">{s.l}</p>
-                </div>
-              ))}
-            </div>
-          </div>
         </div>
       </section>
 

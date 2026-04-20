@@ -70,7 +70,7 @@ Mohon kirimkan quotation lengkap. Terima kasih.`;
           <a key={c.t} href={c.href} target="_blank" rel="noopener noreferrer" className="border border-border bg-surface p-6 hover:border-neon transition group">
             <c.I className="text-neon" size={22} />
             <p className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground mt-4">[{c.t}]</p>
-            <p className="font-display text-base uppercase mt-1 leading-tight">{c.v}</p>
+            <p className="font-display text-sm md:text-base uppercase mt-1 leading-tight break-words hyphens-auto">{c.v}</p>
             <p className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground group-hover:text-neon transition mt-3">{c.tag} →</p>
           </a>
         ))}

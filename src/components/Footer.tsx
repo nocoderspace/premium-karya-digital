@@ -49,7 +49,7 @@ export function Footer() {
               <li className="flex items-start gap-2"><Mail size={14} className="mt-1 text-neon" /><span>fauzidesignindonesia@gmail.com</span></li>
               <li className="flex items-start gap-2"><MapPin size={14} className="mt-1 text-neon" /> Workshop Produksi · Indonesia</li>
               <li className="flex items-start gap-2"><Instagram size={14} className="mt-1 text-neon" /> @fauzidesign.id</li>
-              <li className="flex items-start gap-2"><Music2 size={14} className="mt-1 text-neon" /> TikTok: @fauzidesi.id</li>
+              <li className="flex items-start gap-2"><Music2 size={14} className="mt-1 text-neon" /> TikTok: @fauzidesign.id</li>
             </ul>
           </div>
         </div>

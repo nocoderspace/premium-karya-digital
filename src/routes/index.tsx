@@ -191,11 +191,8 @@ function Index() {
         <div className="absolute inset-0 bg-gradient-to-r from-background via-background/50 to-transparent" />
         <div className="container-edge relative">
           <p className="label-tag mb-3">​</p>
-          <h2 className="font-display text-4xl md:text-6xl uppercase leading-[0.95] max-w-2xl">
-            Diproduksi langsung di <br /> <span className="text-stroke">workshop kami.</span>
-          </h2>
-          <p className="mt-5 max-w-md text-muted-foreground">
-            Di Kerjakan Oleh Tenaga Propesional Yang Sudah Berpengalaman di Bidangnya.
+          <p className="max-w-md text-lg md:text-xl text-muted-foreground leading-relaxed">
+            Di Kerjakan Oleh Tenaga Profesional Yang Sudah Berpengalaman di Bidangnya.
           </p>
           <Link to="/tentang-kami" className="btn-tag btn-tag-outline mt-8">
             Pelajari Proses Produksi <ArrowUpRight size={14} />

@@ -69,7 +69,7 @@ Mohon kirimkan quotation lengkap. Terima kasih.`;
           { I: Clock, t: "Jam Operasional", v: "Sen–Sab · 09.00–18.00 WIB", href: "#", tag: "Buka hari ini" },
         ].map((c) => (
           <a key={c.t} href={c.href} target="_blank" rel="noopener noreferrer" className="border border-border bg-surface p-6 hover:border-neon transition group">
-            <c.I className={c.t === "WhatsApp" ? "" : "text-neon"} size={22} style={c.t === "WhatsApp" ? { color: "#25D366" } : undefined} />
+            {c.t === "WhatsApp" ? <WhatsAppIcon className="text-[#25D366]" size={22} /> : <c.I className="text-neon" size={22} />}
             <p className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground mt-4">[{c.t}]</p>
             <p className="font-display text-sm md:text-base uppercase mt-1 leading-tight break-words hyphens-auto">{c.v}</p>
             <p className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground group-hover:text-neon transition mt-3">{c.tag} →</p>

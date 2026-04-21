@@ -66,17 +66,17 @@ function Tentang() {
         </div>
         <div>
           <p className="label-tag mb-3">[Cerita Kami]</p>
-          <h2 className="font-display text-4xl md:text-5xl uppercase leading-[0.95]">
-            Dari workshop kecil ke ratusan brand <span className="text-stroke">setiap bulan.</span>
-          </h2>
-          <div className="mt-6 space-y-4 text-muted-foreground leading-relaxed">
+          <div className="space-y-4 text-muted-foreground leading-relaxed text-base md:text-lg">
             <p>
-              Berdiri sejak 2018. Berawal dari workshop kecil Fauzi Design tumbuh karena satu prinsip
+              Berdiri sejak 2018. Berawal dari workshop kecil, Fauzi Design tumbuh karena satu prinsip
               sederhana: setiap order, sekecil apa pun, harus dikerjakan dengan kualitas terbaik.
             </p>
             <p>
               Hari ini, kami menangani produksi untuk komunitas, perusahaan, sekolah, hingga event nasional —
-              dengan tim kreatif, dan QC ketat untuk memastikan hasil akhir sesuai ekspektasi.
+              dengan tim kreatif dan QC ketat untuk memastikan hasil akhir sesuai ekspektasi.
+            </p>
+            <p>
+              Kepercayaan ratusan klien yang terus kembali menjadi bukti bahwa konsistensi, ketepatan waktu, dan komunikasi yang transparan adalah fondasi utama kerja kami.
             </p>
           </div>
           <a href={wa} target="_blank" rel="noopener noreferrer" className="btn-tag btn-tag-primary mt-8">

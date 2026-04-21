@@ -54,15 +54,17 @@ export function Header() {
         </nav>
 
         <div className="flex items-center gap-3">
-          <a
-            href={wa}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hidden md:inline-flex btn-tag btn-tag-whatsapp"
-          >
-            <WhatsAppIcon size={14} />
-            Konsultasi WhatsApp
-          </a>
+          <div className="hidden md:block">
+            <a
+              href={wa}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-tag btn-tag-whatsapp"
+            >
+              <WhatsAppIcon size={14} />
+              Konsultasi WhatsApp
+            </a>
+          </div>
           <button
             className="lg:hidden p-2 text-foreground"
             onClick={() => setOpen((v) => !v)}

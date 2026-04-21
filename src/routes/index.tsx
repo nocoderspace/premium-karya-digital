@@ -67,7 +67,7 @@ function Index() {
           </p>
 
           <div className="flex flex-wrap gap-3 mt-8">
-            <Link to="/katalog" className="btn-tag btn-tag-primary">
+            <Link to="/katalog" search={{ cat: undefined }} className="btn-tag btn-tag-primary">
               Lihat Katalog <ArrowUpRight size={14} />
             </Link>
             <a href={wa} target="_blank" rel="noopener noreferrer" className="btn-tag btn-tag-outline">
@@ -102,7 +102,7 @@ function Index() {
               Apa pun produk Anda, <span className="text-stroke">kami buat.</span>
             </h2>
           </div>
-          <Link to="/katalog" className="btn-tag btn-tag-ghost self-start">
+          <Link to="/katalog" search={{ cat: undefined }} className="btn-tag btn-tag-ghost self-start">
             Lihat Semua <ArrowUpRight size={14} />
           </Link>
         </div>

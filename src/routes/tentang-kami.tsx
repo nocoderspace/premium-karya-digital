@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { MessageCircle } from "lucide-react";
+import { WhatsAppIcon } from "@/components/WhatsAppIcon";
 import workshop from "@/assets/workshop.jpg";
 import process1 from "@/assets/process-1.jpg";
 import process2 from "@/assets/process-2.jpg";
@@ -79,8 +79,8 @@ function Tentang() {
               Kepercayaan ratusan klien yang terus kembali menjadi bukti bahwa konsistensi, ketepatan waktu, dan komunikasi yang transparan adalah fondasi utama kerja kami.
             </p>
           </div>
-          <a href={wa} target="_blank" rel="noopener noreferrer" className="btn-tag btn-tag-primary mt-8">
-            <MessageCircle size={14} /> Mulai Proyek
+          <a href={wa} target="_blank" rel="noopener noreferrer" className="btn-tag btn-tag-whatsapp mt-8">
+            <WhatsAppIcon size={14} /> Mulai Proyek
           </a>
         </div>
       </section>
@@ -134,8 +134,8 @@ function Tentang() {
           <h2 className="font-display text-4xl md:text-6xl uppercase leading-[0.95]">
             Mulai proyek Anda <br /> bersama <span className="text-stroke">Fauzi Design.</span>
           </h2>
-          <a href={wa} target="_blank" rel="noopener noreferrer" className="btn-tag btn-tag-primary mt-8">
-            <MessageCircle size={14} /> Chat WhatsApp
+          <a href={wa} target="_blank" rel="noopener noreferrer" className="btn-tag btn-tag-whatsapp mt-8">
+            <WhatsAppIcon size={14} /> Chat WhatsApp
           </a>
         </div>
       </section>

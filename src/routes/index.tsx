@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ArrowUpRight, Check, MessageCircle } from "lucide-react";
+import { ArrowUpRight, Check } from "lucide-react";
+import { WhatsAppIcon } from "@/components/WhatsAppIcon";
 import heroImg from "@/assets/hero-main.jpg";
 import workshop from "@/assets/upload-workshop-jahit.jpg";
 import p1 from "@/assets/upload-kaos-neglasari.jpg";
@@ -70,8 +71,8 @@ function Index() {
             <Link to="/katalog" search={{ cat: undefined }} className="btn-tag btn-tag-primary">
               Lihat Katalog <ArrowUpRight size={14} />
             </Link>
-            <a href={wa} target="_blank" rel="noopener noreferrer" className="btn-tag btn-tag-outline">
-              <MessageCircle size={14} /> Konsultasi Gratis
+            <a href={wa} target="_blank" rel="noopener noreferrer" className="btn-tag btn-tag-whatsapp">
+              <WhatsAppIcon size={14} /> Konsultasi Gratis
             </a>
           </div>
 
@@ -141,8 +142,8 @@ function Index() {
             <p className="mt-6 text-muted-foreground leading-relaxed max-w-md">
               Kami bukan vendor biasa. Kami partner produksi yang memahami detail, deadline, dan reputasi brand Anda.
             </p>
-            <a href={wa} target="_blank" rel="noopener noreferrer" className="btn-tag btn-tag-primary mt-8">
-              <MessageCircle size={14} /> Mulai Proyek
+            <a href={wa} target="_blank" rel="noopener noreferrer" className="btn-tag btn-tag-whatsapp mt-8">
+              <WhatsAppIcon size={14} /> Mulai Proyek
             </a>
           </div>
           <div className="lg:col-span-7 grid sm:grid-cols-2 gap-3">
@@ -212,7 +213,7 @@ function Index() {
               </h2>
             </div>
             <a href={wa} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-background text-foreground px-8 py-5 font-mono text-xs uppercase tracking-widest hover:bg-background/80 transition" style={{ clipPath: "polygon(12px 0, 100% 0, calc(100% - 12px) 100%, 0 100%)" }}>
-                <MessageCircle size={16} /> Chat WhatsApp Sekarang
+                <WhatsAppIcon size={16} /> Chat WhatsApp Sekarang
             </a>
           </div>
         </div>

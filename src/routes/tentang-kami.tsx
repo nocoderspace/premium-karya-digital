@@ -21,6 +21,24 @@ export const Route = createFileRoute("/tentang-kami")({
   component: Tentang,
 });
 
+const PROCESS = [
+  { n: "01", t: "Konsultasi & Brief", d: "Diskusi kebutuhan, target, dan referensi via WhatsApp atau meeting." },
+  { n: "02", t: "Konfirmasi Desain & Spek", d: "Mockup, sample bahan, dan perhitungan teknis sebelum produksi." },
+  { n: "03", t: "Produksi", d: "Cutting, sewing, printing, dan finishing di workshop kami sendiri." },
+  { n: "04", t: "QC & Pengiriman", d: "Setiap pcs dicek manual, lalu dikemas dan dikirim ke seluruh Indonesia." },
+];
+
+function Tentang() {
+  const wa = buildWhatsAppUrl("Halo Fauzi Design, saya ingin memulai proyek custom bersama tim Anda.");
+  return (
+    <>
+      <PageHero
+        tag="Tentang Fauzi Design"
+        title="Cerita di balik"
+        accent="setiap jahitan."
+        subtitle="Fauzi Design lahir dari kecintaan terhadap kerajinan tekstil dan keinginan untuk menyajikan custom apparel berkualitas tinggi yang dapat diandalkan brand, komunitas, dan korporat di seluruh Indonesia."
+        image={workshop}
+      />
 
       {/* STORY */}
       <section className="container-edge py-20 md:py-28 grid lg:grid-cols-2 gap-12 items-center">
